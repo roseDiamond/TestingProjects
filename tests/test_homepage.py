@@ -14,7 +14,7 @@ class TestHomePage(BaseClass):
         homepage.getName().send_keys('sunanda')
         print("suanda sidhharth Gaurav BaharDwaj")
         homepage.getEmail().send_keys('Sunanda123.com')
-        # self.driver.find_element(By.NAME, "email").send_keys("sunanda@boka.com")
+    
 
         homepage.getPassword().send_keys('1234')
         homepage.clickCheckBox()
