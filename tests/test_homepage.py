@@ -12,7 +12,6 @@ class TestHomePage(BaseClass):
         homepage = HomePage(self.driver)
 
         homepage.getName().send_keys('sunanda')
-        print("suanda sidhharth Gaurav BaharDwaj")
         homepage.getEmail().send_keys('Sunanda123.com')
     
 
