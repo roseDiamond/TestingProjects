@@ -34,6 +34,9 @@ class TestHomePage(BaseClass):
         homepage.clickSubmittButton()
 
         message = homepage.getSucessMessage()
+        print("success message")
+        print("success message2")
+
         # print(message)
         assert "Success" in message
 
